@@ -1,0 +1,14 @@
+comando sprig
+
+curl https://start.spring.io/starter.zip \
+  -d dependencies=web,data-jpa,devtools \
+  -d language=java \
+  -d bootVersion=3.3.0 \
+  -d groupId=com.example \
+  -d artifactId=PI3 \
+  -d name=PI3 \
+  -d description="Projeto Spring Boot para PI3" \
+  -d packageName=com.example.pi3 \
+  -d packaging=jar \
+  -d javaVersion=17 \
+  -o PI3.zip
